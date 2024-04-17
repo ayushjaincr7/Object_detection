@@ -5,10 +5,10 @@ import math
 from sort import *
 
 
-cap = cv2.VideoCapture(0)
-cap.set(3, 1280)
-cap.set(4, 720)
-# cap = cv2.VideoCapture('../videos/people.mp4') 
+# cap = cv2.VideoCapture(0)
+# cap.set(3, 1280)
+# cap.set(4, 720)
+cap = cv2.VideoCapture('../videos/people.mp4') 
 
 
 model = YOLO("../yolo_weights/yolov8n.pt")
